@@ -1,0 +1,25 @@
+{%extends 'base.html'%}
+{%block body%}
+{%load static%}
+
+<header>
+    <div class="profile-info">
+        <img src="{% static 'profile.jpg' %}" alt="Profile Picture">
+        <h2>{{ user.username }}</h2>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="{% url 'profile' %}">Profile</a></li>
+            <li><a href="{% url 'settings' %}">Settings</a></li>
+            <li><a href="{% url 'logout' %}">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+</div>
+
+
+
+
+
+
+{% endblock body%}

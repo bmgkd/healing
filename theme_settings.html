@@ -1,0 +1,33 @@
+<!-- theme_settings.html -->
+{% extends "base.html" %}
+
+{% block body %}
+{%load static%}
+
+<link rel="stylesheet" href="{% static'work.css' %}">
+<script src="{% static 'script5.js'%}"></script>
+
+<button id="themeToggle">Toggle Theme</button>
+
+<label for="fontSize">Select Font Size:</label>
+<select id="fontSize">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+</select>
+
+<label for="colorTheme">Select Color Theme:</label>
+<select id="colorTheme">
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+    <option value="custom">Custom</option>
+</select>
+
+   
+
+
+
+
+
+
+{% endblock body %}
