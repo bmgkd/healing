@@ -1,0 +1,25 @@
+/* CSS */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-image: url('../static/images/background.png');
+    height: 1600px;;
+    width: 2500px;
+    transition: all;
+    transition-duration:1s;
+    
+  
+  
+
+
+}
+
+.otherlink{
+    background-color: rgb(63, 253, 253);
+    color: gold;
+    font-size: 30px;
+}

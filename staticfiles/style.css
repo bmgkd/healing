@@ -1,0 +1,85 @@
+/* CSS */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Spread items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 90px;
+    background-color: #357071;
+    color: rgb(233, 239, 239);
+    position: static;
+}
+
+.nav-logo {
+    height: 90px;
+    width: 80px;
+}
+
+.logo {
+    background-image: url('../static/images/oh3.png');
+    background-size: cover;
+    height: 90px;
+    width: 80px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: beige;
+    position: static;
+}
+
+.nav-home {
+    background-image: url('../static/images/home1.svg');
+    background-size: cover;
+    height: 90px;
+    width: 100px;
+    position: relative;
+    border-width: 2px;
+    border-style: groove;
+    border-color: beige;
+    margin-right: 300px;
+    position: static;
+}
+
+.dropdown{
+    background-image: url('../static/images/profi.svg');
+    background-size: cover;
+    height: 90px;
+    width: 100px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: beige;
+    margin-right: 400px;
+    position: static;
+}
+
+.search{
+    height: 50px;
+    width: 60px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: beige;
+    margin-right: 100px;
+    position: static;
+}
+
+.button{
+
+    background-color: aqua;
+    
+}
+
+.signup{
+    height: 50px;
+    width: 60px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: beige;
+    margin-right: 200px;
+    margin-left: 100px;
+    position: static;
+
+}
