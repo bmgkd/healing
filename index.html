@@ -1,12 +1,30 @@
-{%extends 'base.html'%}
-{%block body%}
-<div class="container">
-    <h1>Welcome to Healing Soul</h1>
-    <p>This is the homepage content.</p>
-    <!-- Add your homepage content here -->
-</div>
-
-
-
-
-{%endblock body%} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healing Soul</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header id="header">
+    <a href ="#" class="logo">Healing</a>
+    <ul>
+        <li><a href="#" class="active">home</a></li>
+        <li><a href="#">corner</a></li>
+        <li><a href="/signup">signup</a></li>
+    </ul> </header>
+    <section><h1 id="text"><span>It's time to be</span> <br> soul</h1>
+        <img src = "{%static 'images/Bird1.jpeg'%}">
+        <img src = "{%static 'images/Bird2.jpeg'%}">
+        <a href ="#" id="btn">Explore</a>
+            <img src = "{%static 'images/rocks.jpeg'%}">
+            <img src = "{%static 'images/forest.jpeg'%}">
+            <img src = "{%static 'images/water.jpeg'%}">
+        </section>
+<div class="sec"><h2>Healing ME</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eligendi quibusdam, officia eos quasi incidunt sed quia perferendis? Soluta deserunt a animi iste impedit minima nihil non quidem nemo ad!</p></div> 
+<script src="{% static 'scroll.js'%}"></script>
+</body>
+</html>
